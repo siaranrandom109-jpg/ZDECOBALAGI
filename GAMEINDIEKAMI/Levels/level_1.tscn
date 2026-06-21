@@ -1366,6 +1366,9 @@ size = Vector2(19.5, 173.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xg5g8"]
 size = Vector2(19.5, 173.5)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yegjp"]
+size = Vector2(19.5, 62.75)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p7b0h"]
 size = Vector2(19.5, 168.5)
 
@@ -1827,6 +1830,11 @@ debug_color = Color(0.779799, 0.4378893, 0, 0.41960785)
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="LANTAI" unique_id=2134829609]
 position = Vector2(2268, 188)
 shape = SubResource("RectangleShape2D_xg5g8")
+debug_color = Color(0.779799, 0.4378893, 0, 0.41960785)
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="LANTAI" unique_id=2034598319]
+position = Vector2(2123, -88.375)
+shape = SubResource("RectangleShape2D_yegjp")
 debug_color = Color(0.779799, 0.4378893, 0, 0.41960785)
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="LANTAI" unique_id=452236659]

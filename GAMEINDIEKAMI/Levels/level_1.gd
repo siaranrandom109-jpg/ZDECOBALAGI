@@ -25,6 +25,34 @@ var udah_masuk_zona4: bool = false
 # == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
 # == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
 # == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
+
 
 
 var dekat_loket_batrai: bool = false
