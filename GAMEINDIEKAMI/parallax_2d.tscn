@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://6vtr2u4xndif"]
+
+[ext_resource type="Texture2D" uid="uid://4a22nogla00c" path="res://TileS/Coldplay - A Sky Full Of Stars (Official Video) (3).png" id="1_l70dm"]
+
+[node name="Parallax2D" type="Parallax2D" unique_id=695431422]
+texture_filter = 1
+scroll_scale = Vector2(0.2, 0.2)
+repeat_size = Vector2(1439.48, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1517155356]
+texture = ExtResource("1_l70dm")

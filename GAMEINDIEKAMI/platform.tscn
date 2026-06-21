@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://ctrgkxb3wu7ay"]
+
+[ext_resource type="Texture2D" uid="uid://qldanoqq83p8" path="res://TileS/Coba Yg Ini.png" id="1_mi635"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s8bxr"]
+size = Vector2(80, 14)
+
+[node name="Platform" type="AnimatableBody2D" unique_id=289169758]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1724698644]
+position = Vector2(-23, -2)
+texture = ExtResource("1_mi635")
+region_enabled = true
+region_rect = Rect2(252.41098, 141.46196, 46.766052, 18.687927)
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1658535051]
+position = Vector2(23, -2)
+texture = ExtResource("1_mi635")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(252.41098, 141.46196, 46.766052, 18.687927)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1533887554]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_s8bxr")
+one_way_collision = true

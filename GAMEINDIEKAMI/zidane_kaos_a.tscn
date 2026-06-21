@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://by7fb0exti8c5"]
+
+[ext_resource type="PackedScene" path="res://karakter/zidane_kaos.tscn" id="1_vag1n"]
+
+[node name="ZidaneKaosA" unique_id=1030914264 instance=ExtResource("1_vag1n")]
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=1190409]
+frame = 0
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=1324596528]
+position = Vector2(-6, -3)

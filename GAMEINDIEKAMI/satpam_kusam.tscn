@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://do53spnehcnbb"]
+
+[ext_resource type="Texture2D" uid="uid://bcd37b6bxnp6m" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (1).png" id="1_ik1tl"]
+[ext_resource type="Texture2D" uid="uid://u0amgmlnkjdu" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (2).png" id="2_fnvcl"]
+[ext_resource type="Texture2D" uid="uid://dv4tgrux6inm2" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (3).png" id="3_xuxi5"]
+[ext_resource type="Texture2D" uid="uid://da7w17wukp6r2" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (4).png" id="4_yunw1"]
+[ext_resource type="Texture2D" uid="uid://d2h5p2egfosqa" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (5).png" id="5_3ld55"]
+[ext_resource type="Texture2D" uid="uid://b7idicw5ck6y3" path="res://Character Image/Penjaga Gerbang/PenjagaGerbang (6).png" id="6_6t6yj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jdf8m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ik1tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_fnvcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xuxi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yunw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3ld55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6t6yj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a5l6k"]
+radius = 35.0
+height = 250.0
+
+[node name="SatpamKusam" type="CharacterBody2D" unique_id=551235038]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=509339896]
+sprite_frames = SubResource("SpriteFrames_jdf8m")
+autoplay = "default"
+frame_progress = 0.38888487
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1362021261]
+position = Vector2(13, 3)
+shape = SubResource("CapsuleShape2D_a5l6k")
+disabled = true
