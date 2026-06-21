@@ -16,45 +16,6 @@ var udah_masuk_zona4: bool = false
 
 # == VARIABEL BARU UNTUK LOKET TARUH BATERAI & KUPON ==
 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# ==# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-# == Apa jadinya kaalo aku menambahkan paragreaf random yang ada di sini 
-
-
-
 var dekat_loket_batrai: bool = false
 var baterai_sudah_diberikan: bool = false
 var punya_kupon_makanan: bool = false
