@@ -33,15 +33,26 @@ var sedang_hitstop: bool = false
 func _physics_process(delta: float) -> void:
 	
 	# AMBIL AKSES KE LEVEL UTAMA
-	var level_utama = get_parent() # Sesuaikan jika player di dalam node lain, yg penting mengarah ke Level_1.gd
+	var level_utama = get_parent() # Sesuaikan jika player di dalam node lain, yg penting mengarah ke root level
 	
+	# --- PERBAIKAN: VALIDASI DIALOG AGAR ANTI-ERROR DI LEVEL LAIN ---
+	# Kita cek dulu apakah variabel dialog tersebut memang ada di level yang sedang aktif
+	var lagi_dialog = false
+	if "sedang_dialog_satpam" in level_utama and level_utama.sedang_dialog_satpam:
+		lagi_dialog = true
+	elif "sedang_dialog_robot" in level_utama and level_utama.sedang_dialog_robot:
+		lagi_dialog = true
+	elif "sedang_dialog_nenek" in level_utama and level_utama.sedang_dialog_nenek:
+		lagi_dialog = true
+
 	# JIKA LAGI DIALOG (SATPAM/ROBOT/NENEK), KUNCI GERAKAN DAN PAKSA IDLE
-	if level_utama.sedang_dialog_satpam or level_utama.sedang_dialog_robot or level_utama.sedang_dialog_nenek:
+	if lagi_dialog:
 		velocity = Vector2.ZERO
 		move_and_slide()
 		if has_node("AnimationPlayer"): # atau pakai nama node animasimu
 			$AnimationPlayer.play("idle_normal") # Sesuaikan nama animasi diammu
 		return # STOP KODE JALAN DI BAWAHNYA!
+		
 	atur_kondisi_collider_ledge()
 
 	# JIKA SEDANG MENGGANTUNG (LEDGE GRAB STATE)
